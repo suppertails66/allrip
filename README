@@ -1,14 +1,30 @@
-Some years ago when I was first learning to program, I thought to myself, "Why do I have to keep writing all these different utilities to extract stuff from different games? It would be so much easier to just have one mega-program that I can turn into whatever I need at compile time!"
+Some years ago when I was first learning to program, I thought to myself, "Why
+do I have to keep writing all these different utilities to extract stuff from
+different games? It would be so much easier to just have one mega-program that I
+can turn into whatever I need at compile time!"
 
-And so I devised this needlessly complex solution to code reuse. In a stunning turn of events, it turns out most games use incompatible formats, so there's little benefit to shoving everything into the same program like this except that it's a lot more complicated to compile the individual utilities.
+And so I devised this needlessly complex solution to code reuse. In a stunning
+turn of events, it turns out most games use incompatible formats, so there's
+little benefit to shoving everything into the same program like this except that
+it's a lot more complicated to compile the individual utilities.
 
 Anyway, this program consists of the following subcomponents:
 
-* atlasrip: Extractor for Atlas resource files. Atlas seems to be some sort of COTS application developement framework Microsoft put out in the early '90s; I can't turn up any information about it online, but most of Davidson's educational games from that era (Math Blaster and so on) use it.
-* candyadvrip: Extractor for the resource files in Candy Land Adventure, a game you hopefully have never played.
-* humongousrip: A.K.A. heerip, an extractor for Humongous Entertainment's SCUMM titles. I think this is actually an outdated version, but it's what I had in the development folder.
-* indianrip: Extractor for resource files in Viacom New Media's The Indian in the Cupboard.
+* atlasrip: Extractor for Atlas resource files. Atlas seems to be some sort of
+COTS application developement framework Microsoft put out in the early '90s; I
+can't turn up any information about it online, but most of Davidson's
+educational games from that era (Math Blaster and so on) use it.
+* candyadvrip: Extractor for the resource files in Candy Land Adventure, a game
+you hopefully have never played.
+* humongousrip: A.K.A. heerip, an extractor for Humongous Entertainment's SCUMM
+titles. I think this is actually an outdated version, but it's what I had in the
+development folder.
+* indianrip: Extractor for resource files in Viacom New Media's The Indian in
+the Cupboard.
 * legoislandrip: Extractor for resource files in Lego Island. Mostly broken.
-* mohawkrip: Extractor for resource files in certain Mohawk engine titles, namely the later Carmen Sandiego games.
+* mohawkrip: Extractor for resource files in certain Mohawk engine titles,
+namely the later Carmen Sandiego games.
 
-Most of these are plagued by various issues and have no little to documentation. I'm putting them here on the off chance someone more competent than me wants to put together a better solution at some point.
+Most of these are plagued by various issues and have no little to documentation.
+I'm putting them here on the off chance someone more competent than me wants to
+put together a better solution at some point.
